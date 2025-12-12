@@ -14,6 +14,7 @@ Based on your house price model, rank the four features from most important to l
 
 **Explanation:**
 What I did was look at the cooefficients of each feature to determine their importance. Since bedrooms and bathrooms were in the thousands, they were ranked higher than the absolute value of age ( which was around 900). Although squarefeet is the smallest cooeficient, since there is thousands of square feet in a house, that number scales up higher than the other factors. This info also matched up with the graph, where squarefeet seems the eaisest for a line of best fit and age was much more difficult to find a line of best fit.
+What I did was look at the cooefficients of each feature to determine their importance. Since bedrooms and bathrooms were in the thousands, they were ranked higher than the absolute value of age ( which was around 900). Although squarefeet is the smallest cooeficient, since there is thousands of square feet in a house, that number scales up higher than the other factors. This info also matched up with the graph, where squarefeet seems the eaisest for a line of best fit and age was much more difficult to find a line of best fit.
 
 
 
@@ -26,6 +27,7 @@ Choose TWO features from your model and explain what their coefficients mean in 
 **Feature 1:**
  Each additional squarefoot the house had, price increases by $121.11
 **Feature 2:**
+Each additional bathroom the house had, price increases by $3,858.90
 Each additional bathroom the house had, price increases by $3,858.90
 
 ---
@@ -51,8 +53,10 @@ Location
 Although this may be hard to implement because houses are almost anywhere on earth, I feel like where the house is located is a big deciding factor for how much people would be willing to pay for it. For example, downtown areas are much more expensive than rural areas.
 **Feature 2:**
 Drive way / Garages
+Drive way / Garages
 
 **Why it would help:**
+It's another common house feature that can be implemented as one of the variables. This one would probably have a small range since I believe the average amount of garages is around 1. Eiter way, this would most likely have a decent impact on pricing
 It's another common house feature that can be implemented as one of the variables. This one would probably have a small range since I believe the average amount of garages is around 1. Eiter way, this would most likely have a decent impact on pricing
 
 ---
