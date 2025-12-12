@@ -270,7 +270,7 @@ def make_prediction(model, sqft, bedrooms, bathrooms, age):
     # TODO: Create a DataFrame with the house features
     #       columns should be: ['SquareFeet', 'Bedrooms', 'Bathrooms', 'Age']
     house_features = pd.DataFrame([[sqft, bedrooms, bathrooms, age]], 
-                                 columns= ['SquareFeet', 'Bedrooms', 'Bathrooms', 'Age'])
+                                 columns=['SquareFeet', 'Bedrooms', 'Bathrooms', 'Age'])
     # TODO: Make a prediction using model.predict()
     predicted_price = model.predict(house_features)[0]
 
